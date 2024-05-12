@@ -1,17 +1,18 @@
-html{
+html {
     background: #FFF; 
 }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav {
     background-color: #333;
     display: flex;
-    justify-content: flex-end; 
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Roboto';
 }
 
 nav ul {
@@ -26,7 +27,7 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 50px;
     text-decoration: none;
     color: #fff;
 }
@@ -38,6 +39,56 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color: #48AAAD;
 }
+
+
+h1, h2 {
+    padding-top: 10px;
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+p, li {
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Roboto';
+}
+ 
+.right {
+    text-align: right;
+    align-self: flex-end; 
+    color: #fff; 
+}
+
+.websitecontent {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headerimage {
+    position: relative;
+    height: auto;
+    margin: 0 auto; /* This centers the element horizontally */
+    display: block; /* Ensures it behaves as a block-level element */
+}
+
+.image {
+    padding-bottom: 10px;
+}
+
 
 footer {
     position: flex;
@@ -51,48 +102,3 @@ footer {
     color: #FFF;
 }
 
-.right {
-    text-align: right;
-    align-self: flex-end; 
-    color: #fff; 
-}
-
-
-h1{
-    font-size: 26px;
-    margin: 0;
-    font-family: 'Roboto';
-}
-
-h2{
-    font-size: 26px;
-    margin: 0;
-    font-family: 'Roboto';
-}
-
-h3{
-    font-size: 20px;
-    margin: 0;
-    font-family: 'Roboto';
-}
-
-p, li{
-    font-size: 16px;
-    width: 100%;
-    text-align: justify;
-    font-family:'Roboto';
-}
-
-nav{
-    font-size: 16px;
-    margin: 0;
-    font-family: 'Roboto';
-}
-
-body {
-    margin: 0;
-}
-
-article, aside{
-    padding: 0 60px;
-}
